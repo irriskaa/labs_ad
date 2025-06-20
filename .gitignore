@@ -1,1 +1,48 @@
-**/vhi/
+# python: середовище, кеш, лог-файли
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# ide: vscode, pycharm, jupyter
+.idea/
+.vscode/
+*.ipynb_checkpoints
+
+# дані, які не мають бути у репозиторії
+vhi/
+vhi_data/
+etc/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+household_power_consumption.txt
+
+# файли геоданих (можуть бути великими)
+Kyiv_regions.cpg
+Kyiv_regions.dbf
+Kyiv_regions.prj
+Kyiv_regions.qpj
+Kyiv_regions.shp
+Kyiv_regions.shx
+
+# допоміжні скрипти gdal
+gdal_merge.py
+gdal_pansharpen.py
+
+# бінарні, великі, тимчасові файли
+*.zip
+*.tar
+*.tar.gz
+*.tif
+*.tiff
+*.csv
+*.bak
+*.tmp
+
+# лабораторні, якщо згенеровані або тимчасові
+*.pdf
+*.docx
+*.xlsx
